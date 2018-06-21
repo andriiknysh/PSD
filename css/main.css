@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+div.navbar {
+	display: inline-block;
+	width: 49%;
+	background-color: #FFBC2F;
+}
+div.navbar ul li {
+	display: inline-block;
+	text-align: center;
+	padding: 14px;
+	color: f9efd1;
+}
+div.navbar ul li:hover {
+	color: red;
+	cursor: crosshair;
+}
+div.navbar ul {
+}
+nav {
+	background-color: #FFBC2F;
+	height: 120px;
+}
+ul.right {
+	font-size: 19px;
+
+}
+p.left span {
+	font-weight: bold;
+}
+img#orangeicon {
+	height: 60px;
+	float: left;
+	padding-left: 50px;
+}
+p.left {
+	margin-top: 27px;
+	font-size: 40px;
+	padding: 0;
+}
+img#orange {
+	height: 400px;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+div.searchbox {
+	margin-top: 10px;
+	text-align: right;
+	padding-right: 50px;	
+}
+div.searchbox input {
+	width: 300px;
+	margin: 0 auto;
+	padding: 15px;
+	font-size: 25px;
+	border: 0;
+	background-color: #eaede6;
+	box-shadow: 5px 10px #888888;
+	background-image: url(../img/search.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+div.content {
+	display: inline-block;
+	width: 49%;
+	height: 300px;
+}
+p.right {
+	font-size: 50px;
+	text-align: left;
+	color: orange;
+}
+p.right span {
+	font-weight: bold;
+}
+span.blue {
+	color: #aac8f7;
+}
+.button1 {
+	background-color: #008CBA;
+	font-size: 26px;
+	padding: 12px 28px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2 {
+	background-color: #f29c13;
+	font-size: 26px;
+	padding: 12px 28px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button1:hover {
+	background-color: #4CAF50; /* Green */
+    color: white;
+}
+.button2:hover {
+	background-color: #f442f4;
+    color: white;
+}
+footer {
+	background-color: #b8e53d;
+	margin-top: 50px;
+	height: 120px;
+}
+div.social ul li {
+	display: inline-block;
+	text-align: center;
+}
+div.social ul {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 30px;
+}
+li.f:hover {
+	color: #3B5998;
+}
+li.i:hover {
+	color: #A83793;
+}
+li.t:hover {
+	color: #1DA1F2;
+}
